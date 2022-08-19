@@ -1,4 +1,5 @@
-﻿using Terminal.Gui;
+﻿using System.Diagnostics;
+using Terminal.Gui;
 
 namespace LearningTheConsoleUi;
 
@@ -9,7 +10,7 @@ public static class WindowMenu
         var menu = new Window("QuickStar");
 
         menu.X = 0;
-        menu.Y = 0;
+        
 
 
         var longestName = 0;
@@ -27,8 +28,10 @@ public static class WindowMenu
             windowButton.Clicked += () =>
             {
                 window.Show();
+                Application.Top.Remove(menu);
             };
-            
+
+
             menu.Add(windowButton);
 
             windowCount++;
@@ -37,6 +40,10 @@ public static class WindowMenu
         menu.Width = longestName + 6;
         menu.Height = windowCount + 2;
 
+        var applicationHeight = Application.Current.Bounds.Height;
+        
+        menu.Y = applicationHeight - menu.Bounds.Height - 1;
+      
         return menu;
     }
 }

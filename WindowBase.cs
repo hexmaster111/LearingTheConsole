@@ -13,7 +13,7 @@ public class WindowBase
         {
             var statusBar = new StatusBar(new StatusItem[]
             {
-                new StatusItem(Key.CtrlMask | Key.W, "Close", Close),
+                new (Key.CtrlMask | Key.W, "Close", Close),
             });
             value.Add(statusBar);
             _window = value;
@@ -21,6 +21,7 @@ public class WindowBase
     }
 
     private bool _isVisible = false;
+    public bool IsVisible => _isVisible;
     
     public void Show()
     {

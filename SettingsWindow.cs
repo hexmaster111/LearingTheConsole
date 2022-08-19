@@ -16,9 +16,7 @@ public class SettingsWindow : WindowBase
                 Height = 8
             };
             
-
-
-
+            
             win.Add(new Label("Some Label"));
 
             return win;
