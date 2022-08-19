@@ -1,7 +1,6 @@
-﻿using System.Diagnostics;
-using Terminal.Gui;
+﻿using Terminal.Gui;
 
-namespace LearningTheConsoleUi;
+namespace LearningTheConsoleUi.WindowManagement;
 
 public static class WindowMenu
 {
@@ -11,8 +10,6 @@ public static class WindowMenu
 
         menu.X = 0;
         
-
-
         var longestName = 0;
         var windowCount = 0;
 
@@ -31,7 +28,9 @@ public static class WindowMenu
                 Application.Top.Remove(menu);
             };
 
-
+            if (window.IsVisible)
+                windowButton.ColorScheme = Colors.TopLevel;
+            
             menu.Add(windowButton);
 
             windowCount++;
@@ -43,7 +42,18 @@ public static class WindowMenu
         var applicationHeight = Application.Current.Bounds.Height;
         
         menu.Y = applicationHeight - menu.Bounds.Height - 1;
-      
+
+        menu.ColorScheme = Colors.Dialog;
+
+        menu.KeyDown += (e) =>
+        {
+            if (e.KeyEvent.Key == Key.Esc)
+                Application.Top.Remove(menu);
+        };
+        
+        
+            
+            
         return menu;
     }
 }

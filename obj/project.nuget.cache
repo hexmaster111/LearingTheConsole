@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Ayt/MsJes7QuddruawD40Dls6cVeMShMuzneE8l3lCl8xp7l3/WDYsmLRXTGKhTJ+dN0mi23sq0+NmzUMzue8g==",
+  "dgSpecHash": "ZoD5KwHBhsNB6FCWObMg8RhYUhk9G8A3//o+HAB+ZHLi+3l8nhugvcOVeqYaJUbFz24DPvPrTATK1GClhooNJA==",
   "success": true,
   "projectFilePath": "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hailey\\.nuget\\packages\\newtonsoft.json\\13.0.2-beta1\\newtonsoft.json.13.0.2-beta1.nupkg.sha512",
     "C:\\Users\\Hailey\\.nuget\\packages\\nstack.core\\0.17.1\\nstack.core.0.17.1.nupkg.sha512",
     "C:\\Users\\Hailey\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Hailey\\.nuget\\packages\\terminal.gui\\1.7.2\\terminal.gui.1.7.2.nupkg.sha512"

@@ -61,3 +61,4 @@ D:\LearningTheConsoleUi\LearningTheConsoleUi\obj\Debug\net6.0\refint\LearningThe
 D:\LearningTheConsoleUi\LearningTheConsoleUi\obj\Debug\net6.0\LearningTheConsoleUi.pdb
 D:\LearningTheConsoleUi\LearningTheConsoleUi\obj\Debug\net6.0\LearningTheConsoleUi.genruntimeconfig.cache
 D:\LearningTheConsoleUi\LearningTheConsoleUi\obj\Debug\net6.0\ref\LearningTheConsoleUi.dll
+G:\LearningTheConsoleUi\LearningTheConsoleUi\bin\Debug\net6.0\Newtonsoft.Json.dll

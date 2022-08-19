@@ -2,7 +2,7 @@
 using NStack;
 using Terminal.Gui;
 
-namespace LearningTheConsoleUi;
+namespace LearningTheConsoleUi.WindowManagement;
 
 public static class Logo
 {

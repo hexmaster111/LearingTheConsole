@@ -1,4 +1,4 @@
-﻿namespace LearningTheConsoleUi;
+﻿namespace LearningTheConsoleUi.WindowManagement;
 
 public static class WindowPlacer
 {

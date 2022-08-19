@@ -1,6 +1,6 @@
 ﻿using Terminal.Gui;
 
-namespace LearningTheConsoleUi;
+namespace LearningTheConsoleUi.WindowManagement;
 
 public class WindowBase
 {
@@ -11,11 +11,17 @@ public class WindowBase
         get => _window;
         protected init
         {
-            var statusBar = new StatusBar(new StatusItem[]
+
+            var menuBar = new MenuBar(new []
             {
-                new (Key.CtrlMask | Key.W, "Close", Close),
+                new MenuBarItem("_Window", new []
+                {
+                    new MenuItem("_Close", "", Close)
+                })
             });
-            value.Add(statusBar);
+            
+            value.Add(menuBar);
+            
             _window = value;
         }
     }

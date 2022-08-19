@@ -1,6 +1,7 @@
-﻿using Terminal.Gui;
+﻿using LearningTheConsoleUi.WindowManagement;
+using Terminal.Gui;
 
-namespace LearningTheConsoleUi;
+namespace LearningTheConsoleUi.SystemWindows;
 
 public class SettingsWindow : WindowBase
 {

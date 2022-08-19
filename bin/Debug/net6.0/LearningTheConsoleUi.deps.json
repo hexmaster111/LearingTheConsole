@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "LearningTheConsoleUi/1.0.0": {
         "dependencies": {
+          "Newtonsoft.Json": "13.0.2-beta1",
           "Terminal.Gui": "1.7.2"
         },
         "runtime": {
           "LearningTheConsoleUi.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2-beta1": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.26916"
+          }
         }
       },
       "NStack.Core/0.17.1": {
@@ -55,6 +64,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.2-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lrHT3bmqM13QHvgtj2Y30BCRsq6lX07klW5tScx2B7ihqWeG6aVXrHxVALN34+boed9ybVtlRFLOuKD44Xuttg==",
+      "path": "newtonsoft.json/13.0.2-beta1",
+      "hashPath": "newtonsoft.json.13.0.2-beta1.nupkg.sha512"
     },
     "NStack.Core/0.17.1": {
       "type": "package",
