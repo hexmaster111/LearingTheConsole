@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj": {}
+    "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj": {
+    "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
+        "projectUniqueName": "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
         "projectName": "LearningTheConsoleUi",
-        "projectPath": "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
+        "projectPath": "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
         "packagesPath": "C:\\Users\\Hailey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\obj\\",
+        "outputPath": "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

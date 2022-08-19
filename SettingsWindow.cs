@@ -2,17 +2,12 @@
 
 namespace LearningTheConsoleUi;
 
-public class SettingsWindow : IWindow
+public class SettingsWindow : WindowBase
 {
-    private bool _opened = false;
-    private Window window
+    private Window _window
     {
         get
         {
-            if (_opened)
-                throw new("This window is already open");
-            
-            
             var win = new Window("Settings")
             {
                 X = 0,
@@ -21,30 +16,17 @@ public class SettingsWindow : IWindow
                 Height = 8
             };
             
-            var btn = new Button("Close");
-            btn.Clicked += Close;
-            
-            
-            win.Add(new Label("Some Label"), btn);
 
-            _window = win;
-            
-            _opened = true;
-            
-            return _window;
+
+
+            win.Add(new Label("Some Label"));
+
+            return win;
         }
     }
 
-    private Window _window;
-    
-    public void Close()
+    public SettingsWindow()
     {
-        Application.Top.Remove(_window);
-        _opened = false;
-    }
-    
-    public void Show()
-    {
-        Application.Top.Add(window);
+        this.Window = _window;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kPG9pz247PYiE7hiXlXRBXaXlkum4iitan7kUVAR8nT5KgUsx8IpeH046JiJCeLT6xjndlUO+WskfrTGQkU7kA==",
+  "dgSpecHash": "Ayt/MsJes7QuddruawD40Dls6cVeMShMuzneE8l3lCl8xp7l3/WDYsmLRXTGKhTJ+dN0mi23sq0+NmzUMzue8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hailey\\RiderProjects\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
+  "projectFilePath": "G:\\LearningTheConsoleUi\\LearningTheConsoleUi\\LearningTheConsoleUi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hailey\\.nuget\\packages\\nstack.core\\0.17.1\\nstack.core.0.17.1.nupkg.sha512",
     "C:\\Users\\Hailey\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
